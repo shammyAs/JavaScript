@@ -1,34 +1,34 @@
-let anni = 100
-
+for(let anni=0; anni<=100; anni++){
 
 switch (true){ 
-    case anni == 0-1:
+    case anni <=1:
         nome = "lattante"
         break;
     case anni == 2:
         nome = "prima infanzia"
         break;
-    case anni == 3-6:
+    case anni <=6:
         nome = "seconda infanzia"
         break;
-    case anni == 7-22:
+    case anni <=22:
         nome = "pubertà e adolescenza"
         break;
-    case anni == 23-39:
+    case anni <=39:
         nome = "prima età adulta"
         break;
-    case anni == 40-59:
+    case anni <=59:
         nome = "seconda età adulta"
         break;
-    case anni == 60-75:
+    case anni <=75:
         nome = "terza età"
         break;
-    case anni == 76-90:
+    case anni <=90:
         nome = "quarta età"
         break;
-    case anni == 91-100:
+    default:
         nome = "quinta età"
         break;
     } 
 
-    console.log(nome)
+    console.log(anni + " = " + nome)
+}
