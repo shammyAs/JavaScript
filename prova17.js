@@ -8,4 +8,5 @@ function calcolaMedia (numeri) {
     }
     let media = somma / numeri.length
     return media
-}
+} let NumeroArray=[5,10,15,20,25]
+console.log(calcolaMedia(NumeroArray))
