@@ -1,6 +1,6 @@
 const duck = {
     name: "Aflac",
     numLegs: 2,
-    sayName: function(a){ return "the name of this duck is " + this.name + a + "."}
+    sayName: function(){ return "the name of this duck is " + this.name + "."}
 }
-console.log(duck.sayName(" "))
+console.log(duck.sayName())
